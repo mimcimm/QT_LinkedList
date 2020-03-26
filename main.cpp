@@ -5,7 +5,9 @@
 int main(int argc, char *argv[])
 {
     QCoreApplication a(argc, argv);
-//Testing GitHUb
+
+    //created by Kurtvuran
+
     QLinkedList<QString> stringLinkedList;
     stringLinkedList.append("firtString");
     stringLinkedList.append("secondString");
@@ -14,5 +16,7 @@ int main(int argc, char *argv[])
     foreach(QString i,stringLinkedList)
         qDebug() << i;
 
+
+     stringLinkedList<<"thirdString" <<"forthString";
     return a.exec();
 }
