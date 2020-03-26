@@ -2,11 +2,11 @@
 #include <QDebug>
 #include <QLinkedList>
 
+//created by Kurtvuran
+
 int main(int argc, char *argv[])
 {
     QCoreApplication a(argc, argv);
-
-    //created by Kurtvuran
 
     QLinkedList<QString> stringLinkedList;
     stringLinkedList.append("firtString");
@@ -16,7 +16,5 @@ int main(int argc, char *argv[])
     foreach(QString i,stringLinkedList)
         qDebug() << i;
 
-
-     stringLinkedList<<"thirdString" <<"forthString";
     return a.exec();
 }
