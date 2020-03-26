@@ -5,7 +5,7 @@
 #include <QVector>
 
 //created by Kurtvuran
-
+//https://cpb-us-w2.wpmucdn.com/u.osu.edu/dist/7/11881/files/2018/02/QtCreatorGitTutorial-2ahr2m0.pdf
 int main(int argc, char *argv[])
 {
     QCoreApplication a(argc, argv);
